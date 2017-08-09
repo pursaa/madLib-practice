@@ -1,3 +1,8 @@
 #story {
   display: none;
 }
+#conformation {
+  color: blue;
+  font-weight:bold;
+  font-size: 16px;
+}

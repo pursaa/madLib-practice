@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-    var blanks = ["person1", "person2", "animal", "exclamation", "verb", "noun"];
+    var blanks = ["person1", "appointment", "date", "time",];
 
     blanks.forEach(function(blank) {
       var userInput = $("input#" + blank).val();
